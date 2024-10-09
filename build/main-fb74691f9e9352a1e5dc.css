@@ -1,0 +1,26 @@
+/*!*************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./style.css ***!
+  \*************************************************************/
+.delete-button{
+    margin-left: 5px;
+}
+
+.mg {
+    margin-right: -4px;
+}
+
+.delete-button:hover{
+    background-color: rgb(244, 103, 103);
+    border: 2px solid red;
+}
+
+.add-task-button:hover{
+    background-color: rgb(138, 227, 130);
+    border: 2px solid rgb(5, 202, 5); 
+}
+
+.delete-button:hover, .add-task-button:hover{
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
